@@ -3,8 +3,8 @@
         <div class="container">
             <ul class="banner-list d-flex align-items-center list-unstyled m-0">
                 <li class="banner-item text-uppercase" v-for="(bunnerLink, i) in bunnerLinks" :key="i">
-                    <a href="">
-                        <img :src="'/img/' + bunnerLink.img" alt="">
+                    <a class="d-flex align-items-center" href="">
+                        <img :src="'./img/' + bunnerLink.img" alt="">
                         <div>{{bunnerLink.nome}}</div>
                     </a>
                 </li>
@@ -35,7 +35,7 @@ export default{
                     nome: "comic shop locator"
                 },
                 {
-                    img : "buy-dc-power-visa",
+                    img : "buy-dc-power-visa.svg",
                     nome: "digital comics"
                 },
             ]
@@ -52,6 +52,11 @@ export default{
     & .banner-item{
     flex-basis: calc(100% / 5);
     flex-shrink: 0;
+
+    & img{
+        width: 40px;
+        margin-right: 1rem;
+    }
 
     & a{
         padding: 2rem;

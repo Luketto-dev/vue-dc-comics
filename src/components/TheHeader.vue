@@ -3,7 +3,7 @@
         <div class="container">
             <nav class="d-flex justify-content-between py-3">
                 <div class="logo">
-                    <img src="../../public/img/dc-logo.png" alt="">
+                    <img src="/img/dc-logo.png" alt="">
                 </div>
                 <ul class="my-navbar d-flex align-items-center list-unstyled">
                     <li v-for="(link, i) in navbarLinks" :key="i" class="my-navbar-item">
