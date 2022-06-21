@@ -4,7 +4,7 @@
             <ul class="banner-list d-flex align-items-center list-unstyled m-0">
                 <li class="banner-item text-uppercase" v-for="(bunnerLink, i) in bunnerLinks" :key="i">
                     <a href="">
-                        <img :src="'../../public/img/' + bunnerLink.img" alt="">
+                        <img :src="'/img/' + bunnerLink.img" alt="">
                         <div>{{bunnerLink.nome}}</div>
                     </a>
                 </li>
