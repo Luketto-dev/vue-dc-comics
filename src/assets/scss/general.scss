@@ -1,0 +1,15 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.content{
+    background-color: black;
+    
+
+    & .content-text{
+        color: white;
+        font-size: 1.3rem;
+    }
+}
