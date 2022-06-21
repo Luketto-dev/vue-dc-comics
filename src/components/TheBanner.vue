@@ -1,7 +1,7 @@
 <template>
     <div class="banner">
         <div class="container">
-            <ul class="banner-list d-flex align-items-center list-unstyled m-0">
+            <ul class="banner-list d-flex align-items-center list-unstyled m-0 py-4">
                 <li class="banner-item text-uppercase" v-for="(bunnerLink, i) in bunnerLinks" :key="i">
                     <a class="d-flex align-items-center" href="">
                         <img :src="'./img/' + bunnerLink.img" alt="">
@@ -59,10 +59,10 @@ export default{
     }
 
     & a{
-        padding: 2rem;
+        padding: 1rem 1.5rem;
         color: white;
         text-decoration: none;
-        font-size: .8rem;
+        font-size: .7rem;
         display: block;
     }
 }
