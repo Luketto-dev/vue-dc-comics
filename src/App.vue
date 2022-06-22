@@ -1,11 +1,14 @@
 <template>
   <div id="app">
     <TheHeader></TheHeader>
-    <section class="content py-5">
-      <div class="container">
-        <div class="content-text">-->Content goes here</div>
+    <main class="bg-dark">
+      <div class="jumbotron">
+        <img src="../public/img/jumbotron.jpg" alt="">
       </div>
-    </section>
+      <div class="container">
+        <ComicsList></ComicsList>
+      </div>
+    </main>
     <TheBanner></TheBanner>
     <TheFooter></TheFooter>
   </div>
@@ -15,6 +18,7 @@
 import TheHeader from './components/TheHeader.vue'
 import TheBanner from './components/TheBanner.vue'
 import TheFooter from './components/TheFooter.vue'
+import ComicsList from './components/ComicsList.vue'
 
 
 
@@ -24,6 +28,7 @@ export default {
     TheHeader,
     TheBanner,
     TheFooter,
+    ComicsList,
   }
 }
 </script>

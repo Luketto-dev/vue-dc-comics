@@ -37,9 +37,11 @@
                     </div>
                 </div>
                 <div class="col-5 overflow-hidden">
+                    
                     <div class="dc-logo position-relative">
-                        <img src="/img/dc-logo-bg.png" alt="">
+                        <img class="" src="/img/dc-logo-bg.png" alt="">
                     </div>
+                    
                 </div>
             </div>
         </div>
