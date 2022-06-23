@@ -1,5 +1,5 @@
 <template>
-    <div class="comics-container pb-3">
+    <div class="comics-container pb-3 position-relative">
         <div class="row row-cols-6 gy-2">
             <div class="col" v-for="comic in comics" :key="comic.series">
                 <ComicsCard 
@@ -8,6 +8,7 @@
                 </ComicsCard>
             </div>
         </div>
+        
     </div>
 </template>
 
@@ -102,5 +103,8 @@ export default{
 </script>
 
 
-<style>
+<style lang="scss" scoped>
+
+
+
 </style>

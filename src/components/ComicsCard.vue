@@ -28,7 +28,7 @@ export default{
 </script>
 
 
-<style lang="scss">
+<style lang="scss" scoped>
 .my-card{
     aspect-ratio: 1/1;
 

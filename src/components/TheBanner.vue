@@ -4,7 +4,7 @@
             <ul class="banner-list d-flex align-items-center list-unstyled m-0 py-4">
                 <li class="banner-item text-uppercase" v-for="(bunnerLink, i) in bunnerLinks" :key="i">
                     <a class="d-flex align-items-center" href="">
-                        <img :src="'./img/' + bunnerLink.img" alt="">
+                        <img :src="'/img/' + bunnerLink.img" alt="">
                         <div>{{bunnerLink.nome}}</div>
                     </a>
                 </li>
@@ -45,7 +45,7 @@ export default{
 </script>
 
 
-<style lang="scss">
+<style lang="scss" scoped>
 .banner{
     background-color: #0282F9;
 
@@ -59,11 +59,11 @@ export default{
     }
 
     & a{
-        padding: 1rem 1.5rem;
+        padding: .7rem 1.2rem;
         color: white;
         text-decoration: none;
         font-size: .7rem;
-        display: block;
+        
     }
 }
 }
